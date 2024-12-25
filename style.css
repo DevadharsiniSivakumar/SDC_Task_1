@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #ffffff;
+  }
+  .form-container, .invoice-container {
+    background: #d9dde0;
+    padding: 20px;
+    border: #010101, solid;
+    box-shadow: 0 2px 4px rgba(4, 4, 4, 0.1);
+    margin-bottom: 20px;
+  }
+  .form-container h2, .invoice-container h2 {
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  .invoice {
+    border: 1px solid #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 3px;
+  }
+  .invoice-header, .invoice-footer {
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: #c3bdbd;
+    padding: 20px;
+    color: #010101;
+  }
+  .invoice-details {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+  }
+  .invoice-details th, .invoice-details td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  .invoice-details th {
+    background-color: #f2f2f2;
+  }
+  
+  .invoice-footer h4{
+    margin-bottom: 1px;
+  }
+  @media print {
+    .no-print {
+      display: none;
+    }
+  }
